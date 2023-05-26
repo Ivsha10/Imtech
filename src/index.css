@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #A3CEF1;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.App{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  height: fit-content;
+}
+
+nav{
+  display: grid;  
+  position: fixed;
+  width: 100%;
+  height: fit-content;
+  min-height: 10vh;
+  max-height: 10vh;
+  background-color:#274C77 ;
+  color: aliceblue;
+  align-items: center;
+
+}
+
+.bigNav {
+  grid-template-columns: 50% auto auto auto auto auto;
+}
+
+.smallNav {
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  height: fit-content;
+  grid-template-rows: auto auto;
+}
+
+label{
+  display: flex;
+  font-size: 1.5em;
+  margin-left: 20%;
+  padding: 5px;
+  align-items:center;
+}
+
+img{
+  display: flex;
+  width: 1em;
+  height: 1em;
+  padding: 5px;
+  
+}
+
+button{
+  font-size: inherit;
+  background-color: inherit;
+  border: none;
+  height: 10vh;
+  width: fit-content;
+  padding: 5px;
+  color: aliceblue;
+
+}
+
+
+button:hover{
+  background-color: #6096BA;
+  color: aliceblue;
+}
+
+.signBtn{
+  height: fit-content;
+  background-color: #A3CEF1;
+  color: black;
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+ul{
+  background-color: #274C77;
+  width: 125%;
+  padding: 10px;
+  list-style-type: none;
+  height: 50vh;
+  max-height: 50vh;
+}
+
+li{
+  width: 100%;
+  text-align: center;
+}
+
+.drop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 40%;
+}
+
+.drop:hover{
+height: 60%;
+
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5vh;
+  background-color: #274C77;
+  color: white;
+  text-align: center;
+}
+
+.Link{
+  color: aliceblue;
+  text-decoration: none;
+
+}
+.Link:visited{
+  color:aliceblue;
+}
+
+main{
+  position:relative;
+  width: 100%;
+  background-color: #A3CEF1;
+  margin: auto;  
+  padding: auto;
+  height: 85vh;
+  max-height: 85vh;
+  position: absolute;
+  top: 10vh;
+  font: inherit;
+}
+
+form{
+  display: block;
+  width: 50%;
+  min-width: 500px;
+  max-width: max-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  border: 5px solid #274C77;
+}
+
+input{
+  font: inherit;
+  width: 85%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.registerBtn{
+  min-width: 30%;
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  background-color: #274C77;
+  border: 3px solid #A3CEF1;
+}
+
+.labelMessage{
+  font-size: 1.25em;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+header{
+  display: flex;
+  font-size: 1.25em;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #274C77;
+  color: aliceblue;
+}
