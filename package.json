@@ -1,7 +1,7 @@
 {
   "name": "challenge2",
   "version": "0.1.0",
-  "homepage": "https://Ivsha10.github.io/Imtech",
+  "homepage": "https://Ivsha10.github.io/Imtech/",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
