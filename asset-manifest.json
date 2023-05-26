@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Imtech/static/css/main.c71e44a4.css",
+    "main.css": "/Imtech/static/css/main.d72afdcd.css",
     "main.js": "/Imtech/static/js/main.3d4efd50.js",
     "index.html": "/Imtech/index.html",
-    "main.c71e44a4.css.map": "/Imtech/static/css/main.c71e44a4.css.map",
+    "main.d72afdcd.css.map": "/Imtech/static/css/main.d72afdcd.css.map",
     "main.3d4efd50.js.map": "/Imtech/static/js/main.3d4efd50.js.map"
   },
   "entrypoints": [
-    "static/css/main.c71e44a4.css",
+    "static/css/main.d72afdcd.css",
     "static/js/main.3d4efd50.js"
   ]
 }
